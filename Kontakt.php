@@ -20,10 +20,10 @@
 
     <div class="topnav" id="myTopnav">
 
-      <a href="http://192.168.64.2/Form/start.html">Hem</a>
-      <a href="http://192.168.64.2/Form/Artikel.html">Artiklar</a>
-      <a class="active" href="http://192.168.64.2/Form/Kontakt.html">Kontakt</a>
-      <a href="http://192.168.64.2/Form/OmOss.html">Om Oss</a>
+      <a href="Start.php">Hem</a>
+      <a href="Artikel.php">Artiklar</a>
+      <a class="active" href="Kontakt.php">Kontakt</a>
+      <a href="OmOss.php">Om Oss</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction2()">
         <i class="fa fa-bars"></i>
       </a>
@@ -34,47 +34,29 @@
 
 
     <div id="notepad">
-      <b>
-        <font>Välkommen Till Bike Problems!</font>
-      </b>
-      <br><br>
-      <font size="5">Kontakta oss genom formuläret nedan:</font>
+      <h2>Kontakta oss genom formuläret nedan:</h2>
       <br>
-      <p>SEND E-MAIL</p>
+      <p></p>
       <form class="contact-form" action="contactform.php" method="post">
-        <input type="text" name="name" placeholder="Ditt Namn">
-        <input type="text" name="mail" placeholder="Din e-mail">
-        <input type="text" name="subject" placeholder="Ämne">
-        <textarea name="message" placeholder="Meddelande"></textarea>
+        <input type="text" name="name" placeholder="Ditt Namn"><br>
+        <input type="text" name="mail" placeholder="Din e-mail"><br>
+        <input type="text" name="subject" placeholder="Ämne"><br>
+        <textarea name="message" placeholder="Meddelande"></textarea><br>
         <button type="submit" name="submit">Skicka</button>
       </form>
 
     </div>
 
-    <div id="sök">
-      <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Sök.." title="Sök efter ditt problem här">
-
-      <ul id="myMenu">
-        <li><a href="Broms.html">Bromsar</a></li>
-        <li><a href="Växel.html">Justera Växel</a></li>
-        <li><a href="#">Rikta Hjul</a></li>
-        <li><a href="#">Installera vevlager</a></li>
-        <li><a href="#">Byt slang/däck</a></li>
-        <li><a href="#">Byta Pedaler</a></li>
-        <li><a href="#">Byta Kasett</a></li>
-        <li><a href="#">Tvätta Cykeln</a></li>
-        <li><a href="#">Styrlager</a></li>
-      </ul>
+    <div id="searchbox">
+        <?php include 'index.php';?>
 
     </div>
-
+</div>
     <img src="img/reklam3.jpeg" id="reklam3" alt="">
 
     <footer>
-
-      Hemsidan är skapad av Jonathan Fransén
-    </footer>
   </div>
+
 
 
 

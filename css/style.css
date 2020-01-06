@@ -7,10 +7,6 @@ body {
   font-size: 20px;
 }
 
-section {
-  background-color: white
-}
-
 .topnav {
   background-color: #ddd;
   overflow: hidden;
@@ -49,18 +45,19 @@ section {
 }
 
 #reklam {
-  width: 240px;
+  width: 200px;
   height: auto;
 }
 
 #reklam2 {
-  width: 240px;
-  height: auto;
+  width: 335px;
+    height: auto;
+    margin-left: -95px;
 }
 
 #reklam3 {
-  width: auto;
-  height: 300px;
+  width: 150px;
+  height: auto;
 }
 
 #notepad {
@@ -74,7 +71,10 @@ section {
   margin-right: auto;
   width: 40%;
 }
+#searchbox {
+margin: 1em;
 
+}
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width:600px) {
   .topnav a:not(:first-child) {
@@ -102,21 +102,40 @@ section {
     text-align: left;
   }
 
-  #sök {
-    display: inline-block;
-    width: 200px;
-    height: 10px;
-    margin: 1em;
-    position: absolute;
-    left: 400px;
-    top: 310px;
-    width: 300px;
-  }
 
   #myTopnav {
     height: 200px;
   }
+
+
+
+
+  #reklam {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
+#reklam2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+#reklam3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+#searchbox{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+}
+
 
 #myBtn {
   display: block;
@@ -153,8 +172,8 @@ section {
 }
 
 .popup {
-  width: 100%;
-  margin: 0 auto;
+  width: auto;
+  margin:10px;
   display: none;
   position: fixed;
   z-index: 101;
@@ -164,7 +183,7 @@ section {
   min-width: 600px;
   width: 600px;
   min-height: 150px;
-  margin: 100px auto;
+  margin: 350px ;
   background: #f3f3f3;
   position: relative;
   z-index: 103;
@@ -172,6 +191,7 @@ section {
   border-radius: 5px;
   box-shadow: 0 2px 5px #000;
 }
+
 
 .cnt223 p {
   clear: both;
@@ -198,7 +218,58 @@ section {
   border-radius: 5px;
 }
 
-#popup {
+
+.winter-is-coming, .snow {
+  z-index: 100;
+  pointer-events: none;
+}
+
+.snow {
   position: fixed;
-  top: 30px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  animation: falling linear infinite both;
+  transform: translate3D(0, -100%, 0);
+}
+
+.snow--near {
+  animation-duration: 10s;
+  background-image: url('https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-large-075d267ecbc42e3564c8ed43516dd557.png');
+  background-size: contain;
+}
+
+.snow--near+.snow--alt {
+  animation-delay: 5s;
+}
+
+.snow--mid {
+  animation-duration: 20s;
+  background-image: url('https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-medium-0b8a5e0732315b68e1f54185be7a1ad9.png');
+  background-size: contain;
+}
+
+.snow--mid+.snow--alt {
+  animation-delay: 10s;
+}
+
+.snow--far {
+  animation-duration: 30s;
+  background-image: url('https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png');
+  background-size: contain;
+}
+
+.snow--far+.snow--alt {
+  animation-delay: 15s;
+}
+
+@keyframes falling {
+  0% {
+    transform: translate3D(-7.5%, -100%, 0);
+  }
+
+  100% {
+    transform: translate3D(7.5%, 100%, 0);
+  }
 }

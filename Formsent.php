@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/grid.css">
   <meta charset="utf-8">
-  <title>Om oss</title>
+  <title>Välkommen till Bike Problems</title>
 
 </head>
 
@@ -20,10 +20,10 @@
 
     <div class="topnav" id="myTopnav">
 
-      <a href="file:///Users/jonathanfransen/Desktop/Projekt-HT/start.html">Hem</a>
-      <a href="file:///Users/jonathanfransen/Desktop/Projekt-HT/Artikel.html">Artiklar</a>
-      <a href="file:///Users/jonathanfransen/Desktop/Projekt-HT/Kontakt.html">Kontakt</a>
-      <a class="active" href="file:///Users/jonathanfransen/Desktop/Projekt-HT/OmOss.html">Om Oss</a>
+      <a href="Start.php">Hem</a>
+      <a href="Artikel.php">Artiklar</a>
+      <a href="Kontakt.php">Kontakt</a>
+      <a href="OmOss.php">Om Oss</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction2()">
         <i class="fa fa-bars"></i>
       </a>
@@ -35,12 +35,9 @@
 
     <div id="notepad">
       <b>
-        <font>Välkommen Till Bike Problems!</font>
+        <font>Ditt meddelande har skickats!</font>
       </b>
-      <br><br>
-      <font size="5">Vi driver denna sidan gratis så du får gärna swisha till 072 577 44 31</font>
-      <br>
-      <img id="mekaniker" src="img/mekaniker.jpeg" alt="">
+
 
     </div>
 
@@ -60,7 +57,11 @@
       </ul>
 
     </div>
+<div id="searchbox">
 
+        <?php include 'index.php';?>
+    </div>
+</div>
     <img src="img/reklam3.jpeg" id="reklam3" alt="">
 
     <footer>
