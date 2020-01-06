@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/grid.css">
   <meta charset="utf-8">
-  <title>Kontakt</title>
+  <title>Om oss</title>
 
 </head>
 
@@ -20,10 +20,10 @@
 
     <div class="topnav" id="myTopnav">
 
-      <a href="Start.php">Hem</a>
-      <a href="Artikel.php">Artiklar</a>
-      <a class="active" href="Kontakt.php">Kontakt</a>
-      <a href="OmOss.php">Om Oss</a>
+      <a href="index.html">Hem</a>
+      <a href="Artikel.html">Artiklar</a>
+      <a href="Kontakt.html">Kontakt</a>
+      <a class="active" href="OmOss.html">Om Oss</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction2()">
         <i class="fa fa-bars"></i>
       </a>
@@ -34,29 +34,38 @@
 
 
     <div id="notepad">
-      <h2>Kontakta oss genom formuläret nedan:</h2>
+
+      <h3>Vi driver denna sidan gratis så du får gärna swisha till 072 577 44 31</h3>
       <br>
-      <p></p>
-      <form class="contact-form" action="contactform.php" method="post">
-        <input type="text" name="name" placeholder="Ditt Namn"><br>
-        <input type="text" name="mail" placeholder="Din e-mail"><br>
-        <input type="text" name="subject" placeholder="Ämne"><br>
-        <textarea name="message" placeholder="Meddelande"></textarea><br>
-        <button type="submit" name="submit">Skicka</button>
-      </form>
+      <img id="mekaniker" src="img/mekaniker.jpeg" alt="">
 
     </div>
 
-    <div id="searchbox">
-        <?php include 'index.php';?>
+    <div id="search">
+      <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Sök.." title="Sök efter artikel här">
+
+      <ul id="myMenu">
+        <li><a href=""></a></li>
+        <li><a href="Broms.html">Bromsar</a></li>
+        <li><a href="Vaxel.html">Justera Växel</a></li>
+        <li><a href="#">Rikta Hjul</a></li>
+        <li><a href="#">Installera vevlager</a></li>
+        <li><a href="#">Byt slang/däck</a></li>
+        <li><a href="#">Byta Pedaler</a></li>
+        <li><a href="#">Byta Kasett</a></li>
+        <li><a href="#">Tvätta Cykeln</a></li>
+        <li><a href="#">Styrlager</a></li>
+      </ul>
 
     </div>
-</div>
-    <img src="img/reklam3.jpeg" id="reklam3" alt="">
-
-    <footer>
   </div>
+  <img src="img/reklam3.jpeg" id="reklam3" alt="">
 
+  <footer>
+
+    Hemsidan är skapad av Jonathan Fransén
+  </footer>
+  </div>
 
 
 

@@ -51,13 +51,14 @@ body {
 
 #reklam2 {
   width: 335px;
-    height: auto;
-    margin-left: -95px;
+  height: auto;
+  margin-left: -95px;
 }
 
 #reklam3 {
   width: 150px;
   height: auto;
+  display: none;
 }
 
 #notepad {
@@ -71,10 +72,11 @@ body {
   margin-right: auto;
   width: 40%;
 }
-#searchbox {
-margin: 1em;
 
+#search {
+  margin: 1em;
 }
+
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width:600px) {
   .topnav a:not(:first-child) {
@@ -102,40 +104,36 @@ margin: 1em;
     text-align: left;
   }
 
-
   #myTopnav {
     height: 200px;
   }
 
-
-
-
   #reklam {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-#reklam2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-#reklam3 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-#searchbox{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  #reklam2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  #reklam3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  #search {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 #myBtn {
   display: block;
@@ -173,7 +171,7 @@ margin: 1em;
 
 .popup {
   width: auto;
-  margin:10px;
+  margin: 10px;
   display: none;
   position: fixed;
   z-index: 101;
@@ -183,7 +181,7 @@ margin: 1em;
   min-width: 600px;
   width: 600px;
   min-height: 150px;
-  margin: 350px ;
+  margin: 350px;
   background: #f3f3f3;
   position: relative;
   z-index: 103;
@@ -191,7 +189,6 @@ margin: 1em;
   border-radius: 5px;
   box-shadow: 0 2px 5px #000;
 }
-
 
 .cnt223 p {
   clear: both;
@@ -217,7 +214,6 @@ margin: 1em;
   box-shadow: 0 2px 5px #000;
   border-radius: 5px;
 }
-
 
 .winter-is-coming, .snow {
   z-index: 100;
