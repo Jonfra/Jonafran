@@ -60,7 +60,14 @@ body {
   height: auto;
   display: none;
 }
-
+#vaxel2 {
+  width: 280px;
+  height: auto;
+}
+ #broms2 {
+  width: 280px;
+  height: auto;
+}
 #notepad {
   text-align: center;
   border: 3px solid #477286;
@@ -127,6 +134,14 @@ body {
     margin-right: auto;
     width: 80%;
   }
+#vaxel2 {
+  width: 80%;
+  height: auto;
+ }
+  #broms2 {
+  width: 80%;
+  height: auto;
+}
 
   #search {
     display: block;
