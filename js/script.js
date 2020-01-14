@@ -1,12 +1,12 @@
 if (sessionStorage.getItem('AnnouncementOnce') !== 'true') {
 
-  document.getElementById("popup").onload = function() {
+  document.getElementById("cnt223").onload = function() {
     popup()
   };
-  document.getElementById("popup").style.display = "block";
+  document.getElementById("cnt223").style.display = "block";
 
   document.getElementById("close").onclick = function() {
-    document.getElementById("popup").style.display = "none";
+    document.getElementById("cnt223").style.display = "none";
   };
   sessionStorage.setItem('AnnouncementOnce', 'true');
 }
