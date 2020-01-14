@@ -1,7 +1,7 @@
 if (sessionStorage.getItem('AnnouncementOnce') !== 'true') {
 
   document.getElementById("cnt223").onload = function() {
-    popup()
+    cnt223()
   };
   document.getElementById("cnt223").style.display = "block";
 
