@@ -184,19 +184,12 @@ body {
   /* Add a dark-grey background on hover */
 }
 
-.popup {
-  width: auto;
-  margin: 10px;
-  display: none;
-  position: fixed;
-  z-index: 101;
-}
+
 
 .cnt223 {
   min-width: 600px;
   width: 600px;
   min-height: 150px;
-  margin: 350px;
   background: #f3f3f3;
   position: relative;
   z-index: 103;
