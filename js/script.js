@@ -5,7 +5,7 @@ if (sessionStorage.getItem('AnnouncementOnce') !== 'true') {
   };
   document.getElementById("cnt223").style.display = "block";
 
-  document.getElementById("close").onclick = function3() {
+  document.getElementById("close").onclick = function Function3() {
     document.getElementById("cnt223").style.display = "none";
   };
   /*onclick="document.getElementById('cnt223').style.display='none'" class="close";*/
