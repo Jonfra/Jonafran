@@ -5,9 +5,10 @@ if (sessionStorage.getItem('AnnouncementOnce') !== 'true') {
   };
   document.getElementById("cnt223").style.display = "block";
 
-  document.getElementById("close").onclick = function() {
+  /*document.getElementById("close").onclick = function() {
     document.getElementById("cnt223").style.display = "none";
-  };
+  };*/
+  onclick="document.getElementById('cnt223').style.display='none'" class="close";
   sessionStorage.setItem('AnnouncementOnce', 'true');
 }
 
