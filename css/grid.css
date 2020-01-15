@@ -46,9 +46,9 @@ footer {
   grid-column: 1/13;
   grid-row: 9/10;
 }
-#popup {
-  grid-column: 5/7;
-  grid-row: 4/6;
+#cnt223 {
+  grid-column: 3/4;
+  grid-row: 3/4;
 }
 /* Style the search box */
 #mySearch {
@@ -123,20 +123,10 @@ footer {
   #myTopnav {
     width: auto;
   }
-
-  .popup {
-    width: auto;
-    margin: 10px;
-    display: none;
-    position: fixed;
-    z-index: 101;
-  }
-
   .cnt223 {
     min-width: auto;
     width: auto;
     min-height: 150px;
-    margin: 300px auto;
     background: #f3f3f3;
     position: relative;
     z-index: 103;
