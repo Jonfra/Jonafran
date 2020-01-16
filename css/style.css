@@ -114,6 +114,9 @@ body {
   #myTopnav {
     height: 200px;
   }
+#myBtn {
+    display: block;
+  }
 
   #reklam {
     display: block;
@@ -151,7 +154,7 @@ body {
 }
 
 #myBtn {
-  display: block;
+  display: none;
   /* Hidden by default */
   position: fixed;
   /* Fixed/sticky position */
