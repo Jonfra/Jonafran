@@ -124,6 +124,7 @@ footer {
   grid-row: 3/4;
   min-width: auto;
   width: auto;
+  position: fixed;
 }
   #myTopnav {
     width: auto;
