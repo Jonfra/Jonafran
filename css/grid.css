@@ -119,7 +119,10 @@ footer {
     grid-column: 1/2;
     grid-row: 11/12;
   }
-
+#cnt223 {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
   #myTopnav {
     width: auto;
   }
