@@ -83,7 +83,7 @@ body {
 #search {
   margin: 1em;
 }
-.cnt223 {
+#cnt223 {
   min-width: 600px;
   width: 600px;
   min-height: 150px;
@@ -95,14 +95,14 @@ body {
   box-shadow: 0 2px 5px #000;
 display:none;
 }
-.cnt223 p {
+#cnt223 p {
   clear: both;
   /* text-align: justify; */
   font-size: 20px;
   font-family: sans-serif;
 }
 
-.close:hover {
+#close:hover {
   cursor: pointer;
   background-color: #477286;
 }
@@ -240,7 +240,7 @@ display:none;
     margin-left: auto;
     margin-right: auto;
   }
-   .cnt223 {
+   #cnt223 {
     width: auto;
 }
 
