@@ -269,6 +269,7 @@ margin: 1em;
   left: 0;
   animation: falling linear infinite both;
   transform: translate3D(0, -100%, 0);
+width: auto;
 }
 
 .snow--near {
