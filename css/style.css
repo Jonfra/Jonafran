@@ -174,14 +174,16 @@ margin: 1em;
   background-color: black;
   /* Add a dark-grey background on hover */
 }
-
+  .cnt223 {
+  min-width: auto;
+  width: auto;
+}
 
 .cnt223 {
     display:none;
   min-width: 600px;
   width: 600px;
   min-height: 150px;
-  margin: 350px ;
   background: #f3f3f3;
   position: relative;
   z-index: 103;
@@ -269,6 +271,6 @@ margin: 1em;
 
   100% {
     transform: translate3D(7.5%, 100%, 0);
-  }
+  
 
 }
