@@ -257,8 +257,9 @@ margin: 1em;
 
 }
 
-.winter-is-coming{
-  z-index: 99;
+.winter-is-coming, .snow {
+  z-index: 100;
+  pointer-events: none;
 }
 
 .snow {
