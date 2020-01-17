@@ -256,6 +256,11 @@ margin: 1em;
   }
 
 }
+
+.winter-is-coming{
+  z-index: 99;
+}
+
 .snow {
   position: fixed;
   top: 0;
