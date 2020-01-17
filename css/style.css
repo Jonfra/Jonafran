@@ -81,7 +81,7 @@ margin: 1em;
   display: none;
   }
 .cnt223 {
-    display:none;
+  display:none;
   min-width: 600px;
   width: 600px;
   min-height: 150px;
@@ -219,6 +219,7 @@ margin: 1em;
 }
   .cnt223 {
   min-width: auto;
+  position: fixed;
   width: auto;
 }
 
