@@ -84,7 +84,9 @@ footer {
     grid-column: 1/2;
     grid-row: 10/11;
   }
-
+.snow {
+    grid-column: 1/2;
+ }
   footer {
     grid-column: 1/2;
     grid-row: 11/12;
