@@ -71,7 +71,7 @@ body {
 .topnav .icon {
   display: none;
 }
-p.a {
+p .a {
   font-size: 20px
 }
 #reklam {
@@ -101,7 +101,7 @@ p.a {
   margin-right: auto;
   width: 40%;
 }
-#searchbox {
+#search {
 margin: 1em;
 
 }
@@ -206,7 +206,7 @@ margin: 1em;
   margin-right: auto;
   width: 80%;
 }
-#searchbox{
+#search{
   display: block;
   margin-left: auto;
   margin-right: auto;
