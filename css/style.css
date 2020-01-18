@@ -110,7 +110,7 @@ p.b {
 #myBtn {
   display: none;
   }
-.cnt223 {
+.popup {
   display:none;
   min-width: 600px;
   width: 600px;
@@ -124,7 +124,7 @@ p.b {
 }
 
 
-.cnt223 p {
+.popup p {
   clear: both;
   /* text-align: justify; */
   font-size: 20px;
@@ -249,7 +249,7 @@ p.b {
   background-color: black;
   /* Add a dark-grey background on hover */
 }
-  .cnt223 {
+  .popup {
   min-width: auto;
   position: fixed;
   width: auto;
