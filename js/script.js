@@ -1,14 +1,13 @@
 if (sessionStorage.getItem('AnnouncementOnce') !== 'true') {
 
-  document.getElementById("cnt223").onload = function() {
+  document.getElementById("popup").onload = function() {
     cnt223()
   };
-  document.getElementById("cnt223").style.display = "block";
+  document.getElementById("popup").style.display = "block";
 
   document.getElementById("close").onclick = function Function3() {
-    document.getElementById("cnt223").style.display = "none";
+    document.getElementById("popup").style.display = "none";
   };
-  /*onclick="document.getElementById('cnt223').style.display='none'" class="close";*/
   sessionStorage.setItem('AnnouncementOnce', 'true');
 }
 
