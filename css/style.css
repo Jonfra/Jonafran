@@ -73,10 +73,10 @@ margin: 1em;
 .topnav .icon {
   display: none;
 }
-p .a {
+p.a {
   font-size: 20px
 }
-p .b {
+p.b {
   font-size: 35px
     font-weight: bold;
 }
