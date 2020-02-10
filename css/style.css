@@ -2,6 +2,7 @@ body {
   background-color: #ddd;
 font-family: "Verdana";
 }
+/*add border around objects */
 .btnborder {
   border: 2px;
   border-color: black;
@@ -12,9 +13,6 @@ font-family: "Verdana";
 #logo {
   margin-left: auto;
   margin-right: auto;
-}
-#notepad {
-  background-color: white;
 }
 /* Style the search box */
 #mySearch {
@@ -81,13 +79,16 @@ margin: 1em;
 .topnav .icon {
   display: none;
 }
+/*change font on "a" class */
 p.a {
   font-size: 20px;
 }
+/*change font on "b" class */
 p.b {
   font-size: 35px;
     font-weight: bold;
 }
+/*Change the style of img x */
 #reklam {
   width: 200px;
   height: auto;
@@ -103,21 +104,24 @@ p.b {
   width: 150px;
   height: auto;
 }
-
+ /*style big text box */
 #notepad {
   text-align: center;
   border: 3px solid #477286;
+   background-color: white;
 }
-
+/*style img inside notepad */
 #mekaniker {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
 }
+/*make btn dissappear on default  */
 #myBtn {
   display: none;
   }
+/*style popup box*/
 .popup {
   display:none;
   min-width: 600px;
@@ -131,26 +135,26 @@ p.b {
   box-shadow: 0 2px 5px #000;
 }
 
-
+/*style popup text */
 .popup p {
   clear: both;
   /* text-align: justify; */
   font-size: 20px;
   font-family: sans-serif;
 }
-
+/*style popup close btn on hover*/
 .close:hover {
   cursor: pointer;
   background-color: #477286;
 }
-
+/*style close btn */
 .close {
   float: right;
   height: 19px;
   right: 50px;
   position: relative;
   top: -25px;
-  width: 40px;
+  width: 45px;
   font-weight: bold;
   clear: both;
   box-shadow: 0 2px 5px #000;
@@ -163,41 +167,42 @@ p.b {
   .topnav a:not(:first-child) {
     display: none;
   }
-
+/*style icon in topnav */
   .topnav a.icon {
     float: right;
     display: block;
   }
-
+/*make topnav responsive */
   .topnav.responsive {
     position: relative;
   }
-
+/*position topnav icon */
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-
+/*style topnav text */
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
 
-
+/*position topnav */
   #myTopnav {
     height: 200px;
     width: auto;
   }
 
-
+/*style btn "till toppen" */
 #myBtn {
     display: block;
   }
 #logo {
     width: -webkit-fill-available;
   }
+  /*style img */
   #reklam {
   display: block;
   margin-left: auto;
@@ -216,14 +221,13 @@ p.b {
   margin-right: auto;
   width: 80%;
 }
+  /*style searchbar */
 #search{
   display: block;
   margin-left: auto;
   margin-right: auto;
   }
-
-
-
+/*style btn "till toppen" */
 #myBtn {
   display: none;
   /* Hidden by default */
@@ -257,6 +261,7 @@ p.b {
   background-color: black;
   /* Add a dark-grey background on hover */
 }
+  /* style popup */
   .popup {
   min-width: auto;
   position: fixed;
@@ -267,7 +272,7 @@ p.b {
   }
 
 }
-
+/* style snow fall */
 .winter-is-coming, .snow {
   z-index: 100;
   pointer-events: none;
