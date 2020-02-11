@@ -2,11 +2,11 @@
   display: grid;
   grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: auto;
-  grid-gap: 10px;
+  grid-gap: 0px;
 }
 
 .topnav {
-  grid-column: 1/13;
+  grid-column: 1/12;
   grid-row: 2/3;
 }
 
@@ -41,7 +41,7 @@
 }
 
 footer {
-  grid-column: 1/13;
+;
   grid-row: 9/10;
 }
 #popup {
