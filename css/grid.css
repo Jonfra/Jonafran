@@ -43,8 +43,6 @@
 footer {
    grid-column: 1/12;
   grid-row: 11/12;
-;
-  grid-row: 9/10;
 }
 #popup {
   grid-column: 3/4;
