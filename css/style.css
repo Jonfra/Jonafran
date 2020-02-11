@@ -105,8 +105,11 @@ p.b {
 }
 
 #reklam3 {
-  width: 150px;
-  height: auto;
+  top: 1000px;
+    width: 150px;
+    height: auto;
+    position: relative;
+    margin-left: 1240px;
 }
  /*style big text boxin middle */
 #notepad {
