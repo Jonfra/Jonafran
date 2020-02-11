@@ -1,5 +1,7 @@
 body {
+  /* style background */
   background-color: #ddd;
+  /*style font */
 font-family: "Verdana";
 }
 /*add border around objects */
@@ -9,7 +11,7 @@ font-family: "Verdana";
       border-style: solid;
       border-radius: 5px;
 }
-
+/* Style the logo */
 #logo {
   margin-left: auto;
   margin-right: auto;
@@ -22,32 +24,34 @@ font-family: "Verdana";
   padding: 11px;
   border: 0px solid black;
 }
+/*add margin around searchbar */
 #search {
 margin: 1em;
 }
-/* Style the navigation menu */
+/* Style the search list */
 #myMenu {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-/* Style the navigation links */
+/* Style the navigation links of search list*/
 #myMenu li a {
   padding: 12px;
   text-decoration: none;
   color: black;
   display: block
 }
+/*style search list on hover */
 #myMenu li a:hover {
   background-color: #477286;
 }
-
+/*style color of navigation bar */
 .topnav {
   background-color: #ddd;
   overflow: hidden;
 }
-
+/*style height of navigation bar */
 #myTopnav {
   height: 100px;
 }
@@ -75,7 +79,7 @@ margin: 1em;
   color: white;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
+/* Hide the link that should open and close the navigationbar on small screens */
 .topnav .icon {
   display: none;
 }
@@ -88,7 +92,7 @@ p.b {
   font-size: 35px;
     font-weight: bold;
 }
-/*Change the style of img x */
+/*Change the style of images */
 #reklam {
   width: 200px;
   height: auto;
@@ -104,7 +108,7 @@ p.b {
   width: 150px;
   height: auto;
 }
- /*style big text box */
+ /*style big text boxin middle */
 #notepad {
   text-align: center;
   border: 3px solid #477286;
@@ -162,34 +166,35 @@ p.b {
 }
 
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* When the screen is less than 600 pixels wide */
 @media screen and (max-width:600px) {
+ /* hide all links, except for the first one ("Home"). Show the link that contains should open and close the navigationbar (.icon) */
   .topnav a:not(:first-child) {
     display: none;
   }
-/*style icon in topnav */
+/*style icon in navigationbar */
   .topnav a.icon {
     float: right;
     display: block;
   }
-/*make topnav responsive */
+/*make navigationbar responsive */
   .topnav.responsive {
     position: relative;
   }
-/*position topnav icon */
+/*position navigationbar icon */
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-/*style topnav text */
+/*style navigationbar text */
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
 
-/*position topnav */
+/*position navigationbar */
   #myTopnav {
     height: 200px;
     width: auto;
@@ -199,10 +204,11 @@ p.b {
 #myBtn {
     display: block;
   }
+  /*style logo */
 #logo {
     width: -webkit-fill-available;
   }
-  /*style img */
+  /*style images */
   #reklam {
   display: block;
   margin-left: auto;
@@ -221,7 +227,7 @@ p.b {
   margin-right: auto;
   width: 80%;
 }
-  /*style searchbar */
+  /*style searchbar input */
 #search{
   display: block;
   margin-left: auto;
@@ -256,7 +262,7 @@ p.b {
   font-size: 16px;
   /* Increase font size */
 }
-
+/* style btn on hover*/
 #myBtn:hover {
   background-color: black;
   /* Add a dark-grey background on hover */
