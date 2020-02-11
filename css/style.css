@@ -131,6 +131,7 @@ p.b {
   min-width: 600px;
   width: 600px;
   min-height: 150px;
+  max-height: 200px;
   background: #f3f3f3;
   position: relative;
   z-index: 103;
