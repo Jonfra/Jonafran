@@ -22,11 +22,11 @@ font-family: "Verdana";
   font-size: 18px;
   padding: 11px;
   border: 0px solid black;
+  max-width: 144px;
 }
 /*add margin around searchbar */
 #search {
 margin: 1em;
-overflow: hidden;
 }
 /* Style the search list */
 #myMenu {
