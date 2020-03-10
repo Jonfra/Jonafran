@@ -72,7 +72,7 @@ footer {
     grid-row: 9/10;
   }
 
-#reklam {
+  #reklam {
     grid-column: 1/2;
     grid-row: 10/11;
   }
@@ -87,7 +87,7 @@ footer {
   }
   footer {
     grid-column: 1/2;
-    grid-row: 13/13;
+    grid-row: 13/14;
   }
 #popup {
   grid-column: 1/2;
